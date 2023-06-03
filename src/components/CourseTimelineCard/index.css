@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.time-duration-container {
+  display: flex;
+  align-items: center;
+}
+
+.heading-duration-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.tag-name {
+  color: #25262c;
+  background-color: #e2e8f0;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 500;
+  border-radius: 4px;
+  line-height: 1.6;
+  padding: 4px 8px;
+  margin: 0px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
+
+.list-items {
+  list-style-type: none;
+}
